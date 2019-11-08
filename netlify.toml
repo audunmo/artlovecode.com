@@ -1,4 +1,4 @@
 [build]
-  publish = '.nuxt'
+  publish = 'dist'
   functions = './functions/'
   command = "yarn generate"
