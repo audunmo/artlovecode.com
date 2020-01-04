@@ -1,3 +1,9 @@
+require('dotenv').config({
+  path: process.env.NODE_ENV !== 'production' ? '.env' : '.env.dev'
+})
+
+// eslint-disable-next-line no-console
+console.log(`SANITY ID: ${process.env.SANITY_PROJECT_ID}`)
 const pkg = require('./package')
 
 module.exports = {
