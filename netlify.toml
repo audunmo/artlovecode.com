@@ -1,4 +1,4 @@
 [build]
   base = "./docs"
-  publish = "./dist"
+  publish = "./.vuepress/dist"
   command = "yarn build"
