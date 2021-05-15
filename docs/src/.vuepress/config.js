@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'ArtLoveCode',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -30,6 +30,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   theme: 'simple',
+  themeConfig: {
+    author: 'Audun',
+    navbar: {
+      artlovecode: 'https://artlovecode.com'
+    }
+  },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
